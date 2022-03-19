@@ -132,6 +132,11 @@ h6 {
     font-size     : 12px;
 }
 
+p{
+    margin: 10px;
+    text-align:left;
+}
+
 
 
 /* === FORM STYLE === */
@@ -606,6 +611,7 @@ SOCIAL ICON
 .myphoto img{
     position: relative;
     z-index: -1;
+    padding-right: 100px;
 }
 
 .biography ul{
@@ -1266,13 +1272,17 @@ Resume Timeline
 }
 
 
+#fact{
+    text-align: center;
+}
 
 
 /* === Facts Section === */
 .facts-section {
     background: url(../../assets/images/home2_.jpg) no-repeat center center;
-    background-attachment: fixed;bg
+    background-attachment: fixed;
     background-size: cover;
+    text-align: center;
     color: #fff;  
 }
 
